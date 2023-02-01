@@ -1,0 +1,17 @@
+.div1{
+    width:40%;
+    height: 97.5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgray;
+    flex-direction: column;
+    gap: 10px;
+}
+.div2{
+    height: fit-content;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

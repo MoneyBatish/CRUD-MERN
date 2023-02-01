@@ -45,7 +45,6 @@ const userUpdate=async(req,res)=>{
     const {id}=req.params;
     const {name,email,address}=req.body;
     const {error}=userSchema.validate({name,email,address});
-    console.log(name,email,address);
     if(error)
     {
         res.status(401).json({message:error.details[0].message});
