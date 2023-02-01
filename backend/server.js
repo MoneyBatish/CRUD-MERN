@@ -9,7 +9,7 @@ dotenv.config();
 connectToDb();
 app.use(cors());
 app.options('*',cors())
-
+//cors
 app.use(express.json());
 app.use('/users',userrouter);
 
